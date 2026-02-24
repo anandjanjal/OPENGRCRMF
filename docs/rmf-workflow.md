@@ -1,6 +1,6 @@
 # RMF Workflow Model
 
-This document outlines an RMF automation model aligned to NIST SP 800-37:
+This document outlines an RMF automation model aligned to NIST 800-53, Release 5.2.0:
 1. Categorize
 2. Select
 3. Implement
