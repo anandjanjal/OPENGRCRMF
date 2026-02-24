@@ -20,7 +20,7 @@
 - Pilot collaboration with regulated organizations
 
 ## Phase 4 (18–36 months): Commercialization Pathway
-- Managed hosting/support options (U.S.-based)
+- Managed hosting/support options (CONUS)
 - Compliance-as-a-Service offering (optional)
 - Training modules for workforce development
 - Hiring plan dependent on adoption and partnerships
