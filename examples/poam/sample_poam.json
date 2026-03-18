@@ -1,0 +1,46 @@
+{
+  "poam_id": "POAM-2026-001",
+  "system_name": "GSS System",
+  "control_id": "AC-2",
+  "control_family": "Access Control",
+  "weakness_name": "Inactive user accounts not disabled",
+  "weakness_description": "User accounts remain active beyond 90 days of inactivity, increasing risk of unauthorized access.",
+  "severity": "High",
+  "likelihood": "Moderate",
+  "impact": "High",
+  "risk_score": 8.5,
+  "identified_by": "Tenable Scan",
+  "date_identified": "2026-02-15",
+  "status": "Open",
+  "planned_mitigation": "Implement automated account disablement after 45 days of inactivity and enforce periodic access reviews.",
+  "milestones": [
+    {
+      "milestone_id": "M1",
+      "description": "Develop automation script for inactive account detection",
+      "due_date": "2026-03-01",
+      "status": "In Progress"
+    },
+    {
+      "milestone_id": "M2",
+      "description": "Deploy and validate automated disablement policy",
+      "due_date": "2026-03-15",
+      "status": "Planned"
+    }
+  ],
+  "assigned_to": "Security Operations Team",
+  "estimated_completion_date": "2026-03-20",
+  "actual_completion_date": null,
+  "evidence": [
+    {
+      "type": "scan_report",
+      "source": "Tenable.io",
+      "link": "https://example.com/scan-report"
+    }
+  ],
+  "last_updated": "2026-02-20",
+  "compliance_frameworks": [
+    "NIST SP 800-53",
+    "FISMA",
+    "RMF"
+  ]
+}
