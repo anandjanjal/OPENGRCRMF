@@ -61,7 +61,7 @@ Completed components:
 - Whitepaper v1
 
 Whitepaper:
-- [/whitepaper/OpenGRC_Framework_Whitepaper_v1.pdf](whitepaper/OpenGRC_Framework_Whitepaper_v1.pdf)
+- [OpenGRC RMF Automation and Zero Trust Operationalization (PDF)](whitepaper/OpenGRC%20RMF%20Automation%20and%20Zero%20Trust%20Operationalization.pdf)
 
 Latest Release:
 - v0.1 – Alpha Documentation Release
