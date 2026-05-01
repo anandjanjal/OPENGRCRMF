@@ -1,5 +1,8 @@
 # OpenGRC Framework (OPENGRCRMF)
 
+DOI: https://doi.org/10.5281/zenodo.19935378  
+Zenodo Publication: https://zenodo.org/record/19935378  
+
 An open-source, documentation-first framework designed to model and modernize cybersecurity governance execution across NIST Risk Management Framework (RMF) workflows, Authorization to Operate (ATO) lifecycle artifacts, and Zero Trust alignment for federal and regulated environments.
 
 ---
