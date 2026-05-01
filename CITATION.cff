@@ -1,24 +1,36 @@
 cff-version: 1.2.0
-title: "OpenGRC Framework"
+
+title: "OpenGRC Framework (OPENGRCRMF)"
+
 message: >
   If you use the OpenGRC Framework in research, technical documentation,
   or governance modeling, please cite it using the metadata below.
+
 type: software
 
 authors:
   - family-names: Janjal
     given-names: Anand
 
-version: "v0.1-alpha"
-date-released: 2026-02-23
+version: "v0.2"
+
+date-released: 2026-04-30
 
 abstract: >
-  The OpenGRC Framework is an open-source, documentation-first initiative
-  designed to model and modernize cybersecurity governance execution aligned
-  with the NIST Risk Management Framework (RMF), NIST SP 800-53 control
-  catalog, Authorization to Operate (ATO) lifecycle artifacts, and Zero Trust
-  operational principles.
+  The OpenGRC Framework (OPENGRCRMF) is an open-source, documentation-first
+  initiative designed to model and modernize cybersecurity governance
+  execution aligned with the NIST Risk Management Framework (RMF),
+  NIST SP 800-53 control catalog, Authorization to Operate (ATO)
+  lifecycle artifacts, and Zero Trust operational principles.
+  The framework introduces structured, automation-ready modeling
+  of governance workflows, control validation, and compliance telemetry
+  to support continuous authorization (cATO) and improved cybersecurity posture
+  across federal and regulated environments.
 
 repository-code: "https://github.com/anandjanjal/OPENGRCRMF"
+
+doi: 10.5281/zenodo.19935378
+
+url: "https://doi.org/10.5281/zenodo.19935378"
 
 license: "Apache-2.0"
