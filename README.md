@@ -1,9 +1,25 @@
 # OpenGRC Framework (OPENGRCRMF)
 
+[![Publication](https://img.shields.io/badge/Publication-JCERP%202026-blue)](https://digitalcommons.kennesaw.edu/jcerp/vol2026/iss1/11)
+
 DOI: https://doi.org/10.5281/zenodo.19935378  
 Zenodo Publication: https://zenodo.org/record/19935378  
 
+---
+
+## 📄 Peer-Reviewed Research
+
+This project is supported by peer-reviewed research:
+
+A GovSecOps-Oriented Governance, Risk, and Compliance Platform for Continuous Authorization in DoD IL4/IL5 Environments  
+Journal of Cybersecurity Education, Research and Practice (2026)  
+https://digitalcommons.kennesaw.edu/jcerp/vol2026/iss1/11  
+
+---
+
 An open-source, documentation-first framework designed to model and modernize cybersecurity governance execution across NIST Risk Management Framework (RMF) workflows, Authorization to Operate (ATO) lifecycle artifacts, and Zero Trust alignment for federal and regulated environments.
+
+This project operationalizes a peer-reviewed GovSecOps framework for continuous authorization aligned with DoD IL4/IL5 requirements and Zero Trust principles.
 
 ---
 
@@ -25,25 +41,25 @@ The framework does not replace federal standards or statutory requirements. Inst
 
 In many regulated environments, compliance execution remains:
 
-- Spreadsheet-driven
-- Document-centric rather than workflow-driven
-- Disconnected from real-time security telemetry
-- Fragmented across multiple tools
+- Spreadsheet-driven  
+- Document-centric rather than workflow-driven  
+- Disconnected from real-time security telemetry  
+- Fragmented across multiple tools  
 
 These structural inefficiencies can:
 
-- Delay ATO timelines
-- Increase administrative overhead
-- Reduce risk visibility
-- Limit integration between Zero Trust telemetry and RMF documentation
+- Delay ATO timelines  
+- Increase administrative overhead  
+- Reduce risk visibility  
+- Limit integration between Zero Trust telemetry and RMF documentation  
 
 The OpenGRC Framework models governance workflows to enable:
 
-- Artifact traceability
-- Structured evidence lifecycle management
-- Continuous monitoring integration
-- Vendor-neutral extensibility
-- Zero Trust governance alignment
+- Artifact traceability  
+- Structured evidence lifecycle management  
+- Continuous monitoring integration  
+- Vendor-neutral extensibility  
+- Zero Trust governance alignment  
 
 ---
 
@@ -53,27 +69,30 @@ Phase: **Alpha Documentation Release (v0.1)**
 
 Completed components:
 
-- RMF lifecycle workflow model
-- ATO artifact lifecycle modeling
-- Structured POA&M object schema (see example JSON)
-- Control mapping model (NIST SP 800-53 aligned)
-- Zero Trust governance alignment model
-- High-level architecture documentation
-- Dated multi-phase roadmap
-- Governance and contribution framework
-- Whitepaper v1
+- RMF lifecycle workflow model  
+- ATO artifact lifecycle modeling  
+- Structured POA&M object schema (see example JSON)  
+- Control mapping model (NIST SP 800-53 aligned)  
+- Zero Trust governance alignment model  
+- High-level architecture documentation  
+- Dated multi-phase roadmap  
+- Governance and contribution framework  
+- Whitepaper v1  
 
 Whitepaper:
+
 - [OpenGRC RMF Automation and Zero Trust Operationalization (PDF)](whitepaper/OpenGRC%20RMF%20Automation%20and%20Zero%20Trust%20Operationalization.pdf)
 
 Latest Release:
-- v0.1 – Alpha Documentation Release
+
+- v0.1 – Alpha Documentation Release  
 
 ---
 
 ## Core Modules
 
 ### 1. RMF Workflow Model
+
 Structured modeling of:
 
 - Categorize  
@@ -84,38 +103,42 @@ Structured modeling of:
 - Monitor  
 
 ### 2. ATO Artifact Lifecycle
+
 Data-driven modeling of:
 
-- System Security Plan (SSP)
-- Security Assessment Plan (SAP)
-- Security Assessment Report (SAR)
-- Plan of Action & Milestones (POA&M)
-- Continuous Monitoring workflows
+- System Security Plan (SSP)  
+- Security Assessment Plan (SAP)  
+- Security Assessment Report (SAR)  
+- Plan of Action & Milestones (POA&M)  
+- Continuous Monitoring workflows  
 
 ### 3. Control Mapping Model
+
 Vendor-neutral structured representation aligned with:
 
-- NIST SP 800-53 control families
-- Baseline inheritance concepts
-- Evidence mapping and telemetry linkage
-- Cross-framework expansion (future phases)
+- NIST SP 800-53 control families  
+- Baseline inheritance concepts  
+- Evidence mapping and telemetry linkage  
+- Cross-framework expansion (future phases)  
 
 ### 4. DevSecOps Integration Specifications
+
 API-ready modeling for:
 
-- CI/CD telemetry ingestion
-- Vulnerability scan integration
-- Container security evidence mapping
-- Configuration compliance tracking
+- CI/CD telemetry ingestion  
+- Vulnerability scan integration  
+- Container security evidence mapping  
+- Configuration compliance tracking  
 
 ### 5. Zero Trust Alignment Model
+
 Governance alignment across:
 
-- Identity controls
-- Device posture validation
-- Network segmentation mapping
-- Application security telemetry
-- Continuous verification signals
+- Identity controls  
+- Device posture validation  
+- Network segmentation mapping  
+- Application security telemetry  
+- Continuous verification signals  
 
 ---
 
@@ -125,6 +148,26 @@ See the high-level architecture diagram:
 
 - [Architecture Overview](docs/architecture.md)
 
+Refer to the published paper for full architecture design and validation model.
+
+---
+
+## Research Foundation
+
+This repository implements the concepts presented in:
+
+Janjal, Anand  
+A GovSecOps-Oriented Governance, Risk, and Compliance Platform for Continuous Authorization in DoD IL4/IL5 Environments  
+Journal of Cybersecurity Education, Research and Practice, 2026  
+https://digitalcommons.kennesaw.edu/jcerp/vol2026/iss1/11  
+
+Key contributions implemented in this project:
+
+- Continuous Authorization (ATO) automation model  
+- GovSecOps integration with RMF workflows  
+- Policy-as-code approach aligned with Zero Trust  
+- Structured control-to-evidence mapping for compliance automation  
+
 ---
 
 ## Example: Structured POA&M Data Model
@@ -133,16 +176,14 @@ The OpenGRC Framework models Plan of Action & Milestones (POA&M) artifacts as st
 
 This enables:
 
-- Automated vulnerability tracking and remediation workflows
-- Integration with security tools (e.g., vulnerability scanners, SIEM)
-- Control-to-evidence traceability aligned with NIST RMF
-- Continuous authorization and monitoring capabilities
+- Automated vulnerability tracking and remediation workflows  
+- Integration with security tools (e.g., vulnerability scanners, SIEM)  
+- Control-to-evidence traceability aligned with NIST RMF  
+- Continuous authorization and monitoring capabilities  
 
 Sample POA&M object:
 
 - [Sample POA&M JSON](examples/poam/sample_poam.json)
-
-This example demonstrates how compliance artifacts can be represented as interconnected data objects to support automation and lifecycle transparency.
 
 ---
 
@@ -154,10 +195,10 @@ Full documentation index:
 
 Core documents:
 
-- [RMF Workflow Model](docs/rmf-workflow.md)
-- [ATO Artifact Lifecycle Model](docs/ato-artifacts.md)
-- [Control Mapping Model](docs/control-mapping.md)
-- [Zero Trust Alignment Model](docs/zero-trust-alignment.md)
+- [RMF Workflow Model](docs/rmf-workflow.md)  
+- [ATO Artifact Lifecycle Model](docs/ato-artifacts.md)  
+- [Control Mapping Model](docs/control-mapping.md)  
+- [Zero Trust Alignment Model](docs/zero-trust-alignment.md)  
 
 ---
 
@@ -167,10 +208,10 @@ See [ROADMAP.md](ROADMAP.md) for dated milestones and phased releases.
 
 Planned release sequence:
 
-- v0.1 – Alpha Documentation
-- v0.2 – Integration & Schema Specification
-- v0.3 – Public Beta Documentation
-- v1.0 – Framework Maturity Milestone
+- v0.1 – Alpha Documentation  
+- v0.2 – Integration & Schema Specification  
+- v0.3 – Public Beta Documentation  
+- v1.0 – Framework Maturity Milestone  
 
 ---
 
@@ -178,12 +219,12 @@ Planned release sequence:
 
 Unlike many proprietary GRC platforms, the OpenGRC Framework emphasizes:
 
-- Workflow-driven lifecycle modeling
-- Structured control-to-evidence mapping
-- Vendor-neutral integration architecture
-- Explicit Zero Trust governance alignment
-- Open-source transparency
-- Documentation-first extensibility
+- Workflow-driven lifecycle modeling  
+- Structured control-to-evidence mapping  
+- Vendor-neutral integration architecture  
+- Explicit Zero Trust governance alignment  
+- Open-source transparency  
+- Documentation-first extensibility  
 
 The objective is structural modernization of compliance execution rather than product replacement.
 
@@ -193,9 +234,9 @@ The objective is structural modernization of compliance execution rather than pr
 
 Project governance and contribution guidelines:
 
-- [GOVERNANCE.md](GOVERNANCE.md)
-- [CONTRIBUTING.md](CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- [GOVERNANCE.md](GOVERNANCE.md)  
+- [CONTRIBUTING.md](CONTRIBUTING.md)  
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)  
 
 ---
 
